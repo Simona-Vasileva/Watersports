@@ -1,0 +1,29 @@
+footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(123, 192, 192);
+    height: 40px;
+    align-items: center;
+    font-size: 17px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-container{
+    height: 35px;
+    width: 200px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+
+.icon-container > img{
+    width: 20px;
+    margin-right: 5px;
+}
+
+#icon-container3{
+    justify-content: end;
+}

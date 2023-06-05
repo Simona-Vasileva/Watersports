@@ -1,0 +1,160 @@
+#reviews {
+    color: white;
+    background-color: black;
+    font-size: 22px;
+    height:100%;
+}
+
+.title-feedback>img{
+    width: 40px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-feedback{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input, .btn-submit{
+    outline: none;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 5px auto;
+}
+
+.btn-submit{
+    cursor: pointer;
+}
+
+form{
+    max-width: 300px ;
+    width: 100%;
+}
+
+.input-group-review,
+.nput-group-rating{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+}
+
+.message{
+    font-size: 15px;
+    min-height: 15px;
+    color:red;
+    margin-bottom: 10px;
+}
+
+.title,
+.subtitel{
+    padding: 15px;
+}
+
+.subtitel{
+    margin-bottom: 10px;
+}
+
+input[type='radio']{
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: white;
+    margin: 0;
+    border-radius: 50%;
+    transform: scale(0.6);
+    transition: 400ms ease-in-out;
+    cursor: pointer;
+}
+
+input[type='radio']:checked{
+    background-color: aqua;
+    transform: translateY(-4px) scale(1);
+}
+
+.feedback-ul{
+    list-style: none;
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.feedback-ul> li{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    background-color:white;
+    border-radius: 5px;
+    color: black;
+    padding: 15px;
+    width: 200px;
+    font-size: 15px;
+}
+
+
+.feedback-ul> li .value{
+    position: relative;
+    top: -25px;
+    left: -25px;
+    background-color: rgb(39, 126, 126);
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    color:black;
+}
+
+.feedback-ul> li .delete{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    color:black;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.feedback-ul> li .text{
+    font-size: 14px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    width: 15px;
+    height: 15px;
+}
+
+.average{
+    position: relative;
+    font-size:20px;
+    font-weight: bold;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    color: black;
+}
+
+.average:after{
+    content: 'Average';
+    position: absolute;
+    top: 4px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.review{
+    background-color: rgb(203, 231, 235);
+}

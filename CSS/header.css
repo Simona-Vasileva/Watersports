@@ -1,0 +1,22 @@
+header {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(123, 192, 192);
+    color: white;
+}
+
+.nav-bar {
+    height: 50px;
+    font-weight: bold;
+}
+
+.nav-bar>ul {
+    padding-top: 10px;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar > ul > li > a {
+    text-decoration: none;
+}

@@ -1,0 +1,84 @@
+#cartPage {
+    background-color: black;
+    color: white;
+    min-height: 85vh;
+    height: 100%;
+    padding: 17px;
+    font: 40px Swis721 Blk BT;
+    display: flex;
+    justify-content: center;
+}
+
+.products-container {
+    width: 1100px;
+    height: 100%;
+    margin-top: 50px;
+    background-color: rgb(123, 192, 192);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product> img {
+  width: 15px;
+  height: 15px;
+}
+
+.decrease{
+  width: 15px;
+  height: 15px;
+}
+
+.increase{
+    width: 15px;
+    height: 15px;
+  }
+
+.product{
+    width: 95%;
+}
+
+.quantity{
+    width: 95%;
+}
+
+
+.product-titel {
+    width: 45%;
+}
+
+.price {
+    width: 95%;
+    display: flex;
+}
+
+.total {
+    width: 95%;
+    color: black;
+}
+
+.products {
+    width: 1200px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+    padding: 10px;
+}
+
+.basketTotalTitel {
+    width: 30%;
+    color: black;
+}
+
+.basketTotal {
+    width: 20%;
+    color: black;
+}

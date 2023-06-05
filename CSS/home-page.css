@@ -1,0 +1,15 @@
+#homePage {
+    background-image: url(../images/snorkeling-above-coral-reefs-u0kbyrm45tanfyki.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+}
+
+.main-titel {
+    position: absolute;
+    bottom: 45px;
+    font: 80px Swis721 Blk BT;
+    color: white;
+    margin: 15px;
+}

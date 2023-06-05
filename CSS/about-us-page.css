@@ -1,0 +1,80 @@
+#aboutUsPage {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 100%;
+    padding: 7px;
+    justify-content: space-between;
+}
+
+.info-card {
+    height: 590px;
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    color: black;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.info-card>.img-container>img {
+    width: 270px;
+    opacity: 90%;
+    justify-content: space-between;
+}
+
+.info-card>div {
+    font: 16px Swis721 Blk BT;
+    color: rgb(0, 0, 0);
+}
+
+.info-card>p {
+    text-align: justify;
+    position: absolute;
+    bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contacts {
+    text-align: justify;
+    position: absolute;
+    top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.form {
+    text-align: center;
+}
+
+#map {
+    height: 270px;
+    width: 270px;
+  }
+
+.input{
+    height: 15px;
+    width: 240px;
+    margin: 10px;
+}
+
+.submit-button {
+    background-color: rgb(123, 192, 192);
+    border-radius: 5px ;
+}
+
+.title {
+    width: 300px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
